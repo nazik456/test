@@ -1,20 +1,25 @@
+import About from "./pages/About";
+import Delivery from "./pages/Delivery";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home";
 import Category from "./pages/Category";
 import NotFound from "./pages/NotFound";
-import Delivery from "./pages/Delivery";
 import { createContext, useEffect, useState } from "react";
 import { getDocs } from "firebase/firestore/lite";
-import { categoryCollection } from "./firebase";
+import { categoryCollection, productCollection } from "./firebase";
+import Contacts from "./pages/Contact";
 
 // Создать контекст, который будет хранить данные.
 export const AppContext = createContext({
   categories: [],
+  products:[],
 });
+
 
 function App() {
   const [categories, setCategories] = useState([]);
+  const [products, setProducts] =useState([]);
 
   useEffect(() => { // выполнить только однажды
     getDocs(categoryCollection) // получить категории
@@ -26,17 +31,28 @@ function App() {
           }))
         )
       });
+
+
+    getDocs(productCollection) // получить категории
+      .then(({ docs }) => { // когда категории загрузились
+        setProducts( // обновить состояние
+          docs.map(doc => ({ // новый массив
+            ...doc.data(), // из свойств name, slug
+            id: doc.id // и свойства id
+          }))
+        )
+      });
   }, []);
 
   return (
     <div className="App">
-      <AppContext.Provider value={{ categories }}>
+      <AppContext.Provider value={{ categories , products}}>
         <Layout>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<h1>About</h1>} />
-            <Route path="/contacts" element={<h1>Contacts</h1>} />
-            <Route path="/delivery" element={<h1>Delivery</h1>} />
+            <Route path="/about" element={<About/>} />
+            <Route path="/contacts" element={<Contacts/>} />
+            <Route path="/delivery" element={<Delivery/>} />
             <Route path="/categories/:slug" element={<Category />} />
 
             <Route path="*" element={<NotFound />} />

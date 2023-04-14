@@ -2,24 +2,21 @@ import { useMatch } from "react-router";
 import NotFound from "./NotFound";
 import { AppContext } from "../App";
 import { useContext } from "react";
+import ProductList from "../components/ProductList/ProductList";
 
-export default function Category(){
-  const {params} = useMatch("/categories/:slug");
-  
-   const {categories} = useContext(AppContext);
+export default function Category() {
+  const { params } = useMatch("/categories/:slug");
 
-   
-  const category  = categories.find(
-    (category) => category.slug === params.slug
-  );
+  const { categories } = useContext(AppContext);
+
+  const category = categories.find((category) => category.slug === params.slug);
   if (!category) {
-    return<NotFound/>
+    return <NotFound />;
   }
-  return(
+  return (
     <div>
       <h1>{category.name}</h1>
-      <productsList />
-      
+      <ProductList />
     </div>
-  )
+  );
 }
