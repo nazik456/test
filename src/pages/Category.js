@@ -14,9 +14,9 @@ export default function Category() {
     return <NotFound />;
   }
   return (
-    <div>
+      <div className="Category">
       <h1>{category.name}</h1>
-      <ProductList />
+      <ProductList  category={category} />
     </div>
   );
 }

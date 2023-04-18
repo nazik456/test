@@ -1,3 +1,13 @@
 .Nav .NavItem a {
   color: tomato;
+  vertical-align: middle;
+  display: table-cell;
+
+}
+.ul { 
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+ height: 53px;
+
 }
