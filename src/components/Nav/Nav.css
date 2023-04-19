@@ -6,8 +6,23 @@
 }
 .ul { 
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
- height: 53px;
+  height: 53px;
+ 
+}
+.NavMonth{
+  background-image: url(./floor-1256804_960_720.jpg);
+  margin-top: -164px;
+padding: 80px;
+border:4px  solid green;
+
+}
+.Nav ul{
+  margin-top: -70px;
+}
+.NavItem {
+  padding: 0px 20px;
+  text-transform: uppercase;
 
 }

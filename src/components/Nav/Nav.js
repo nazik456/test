@@ -4,6 +4,8 @@ import "./Nav.css";
 export default function Nav() {
   return (
     <nav className="Nav">
+      <div className="NavMonth">
+        </div>
       
       <ul className="ul">
         <li className="NavItem">
@@ -17,7 +19,7 @@ export default function Nav() {
           <NavLink to="/contacts">подарки для сувинера</NavLink>
         </li>
         <li className="NavItem">
-          <NavLink to="/delivery">О компании</NavLink>
+          <NavLink to="/delivery">o компании</NavLink>
         </li>
       </ul>
     </nav>
