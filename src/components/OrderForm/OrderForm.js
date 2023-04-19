@@ -3,10 +3,16 @@ import "./OrderForm.css";
 import { ordersCollection } from "../../firebase";
 import { useContext } from "react";
 import { AppContext } from "../../App";
-import { Navigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
 
 export default function OrderForm() {
   const { cart, setCart } = useContext(AppContext);
+  const navigate = useNavigate();
+
+  if (Object.keys(cart).length === 0){
+    return "your cart is emty.";
+  }
 
   function onFormSubmit(event) {
     event.preventDefault();
@@ -23,7 +29,7 @@ export default function OrderForm() {
   
   .then(doc =>{
     setCart({})
-    Navigate('/thank-you');
+    navigate('/thank-you');
   })
   }
   return (
