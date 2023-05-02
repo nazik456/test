@@ -9,7 +9,8 @@ export default function Nav() {
       
       <ul className="ul">
         <li className="NavItem">
-          < NavLink to="/hmee" >бумага бумажная и продукция</NavLink>
+          
+          < NavLink to="/hmee" >РУЧКИ....</NavLink>
         </li>
         <li className="NavItem">
           <NavLink to="/About">концтовары ,товары для офиса</NavLink>
