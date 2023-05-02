@@ -1,3 +1,6 @@
+
+
+
 .Layout {
   display: grid;
   grid-template-areas: "header header"
@@ -10,7 +13,7 @@
 }
 .Layout header {
   grid-area: header;
-
+  
 }
 .Layout aside {
   grid-area: aside;
@@ -24,4 +27,19 @@
 
 .Layout .logo {
   max-width: 100px;
+
+}
+aside {
+  margin-left: 90px;
+  width: 200px;
+}
+.CategoryList li {
+  margin: 25px 0px;
+}
+aside {
+  background-color: rgb(100, 100, 124);
+  padding: 1em 2rem;
+  width: 270px;
+  margin: 20px 0;
+  height: 50vh;
 }
