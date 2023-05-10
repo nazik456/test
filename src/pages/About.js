@@ -1,11 +1,9 @@
-
-
+ 
 export default function About(){
   return(
     <div className="About">
-      <h1>Abouts</h1>
- 
-
+      <h1>About</h1>
+      <p>lorem ipsin</p>
     </div>
   )
 }
