@@ -4,6 +4,7 @@ import { AppContext } from "../../App";
 import "./ProductList.css";
 import AddToCart from "../AddToCart/AddToCart";
 import AddProduct from "../AddProduct/Addproduct";
+import DeleteProduct from "../DeleteProduct/DeleteProduct";
 
 export default function ProductList({ category}) {
   const { products } = useContext(AppContext);
@@ -15,15 +16,17 @@ export default function ProductList({ category}) {
       <NavLink to={'/products/' + product.slug}>
         {product.name}
       </NavLink>
-      <span>{product.price} som</span>
+      <span>{product.price} </span>
       <AddToCart product={product} />
+      <DeleteProduct product={product} /> 
     </div>
   ));
 
   return (
     <div className="ProductList">
       {output}
-      <AddProduct />
+      <AddProduct category={category} />
+
     </div>
   );
 }
