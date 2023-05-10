@@ -44,12 +44,17 @@ aside {
   width: 270px;
   margin: 20px 0;
   height: 50vh;
+  font-size: 200%;
+  position: absolute;
+  width: 70%;
+  height: 90%;
+
 }
 .Layout{
 background-image: url(../../assets/1619339135_32-phonoteka_org-p-fon-dlya-prezentatsii-po-detskoi-literatur-36.jpg);
 position: absolute;
-width: 100%;
-height: 100%;
+width: 120%;
+height: 120%;
 
 
 }
