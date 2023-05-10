@@ -11,7 +11,7 @@ export default function Nav() {
       <ul className="ul">
         <li className="NavItem">
           
-          < NavLink to="/about"    >About</NavLink>
+          < NavLink to="/about">About</NavLink>
     
         </li>
         <li className="NavItem">
