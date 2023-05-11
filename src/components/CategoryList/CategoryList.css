@@ -21,6 +21,7 @@
 }
 .CategoryList li{
   margin: 30px 0;
+
 }
 .CategoryList{
   background: rgba(148, 138, 138, 0.5);
@@ -29,6 +30,7 @@
 }
 .CategoryList h3 span{
   color: rgb(175, 8, 108);
+
  
 
 }
@@ -41,5 +43,6 @@
   flex-wrap: wrap;
   display: flex;
 }
+
 
 
