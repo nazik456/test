@@ -11,6 +11,7 @@ import {
   onCategoriesLoad,
   onOrdersLoad,
   onProductsLoad,
+
   
 } from "./firebase";
 import Product from "./pages/Product";
