@@ -17,7 +17,7 @@ import {
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
-import ThankYou from "./pages/ThankYou";
+u";
 
 
 
@@ -77,7 +77,7 @@ function App() {
             <Route path="/delivery" element={<h1>Delivery</h1>} />
             <Route path="/categories/:slug" element={<Category />} />
             <Route path="/products/:slug" element={<Product />} />
-            <Route path="/ThankYou" element={<ThankYou />} />
+
             <Route path="/orders" element={<orders/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="*" element={<NotFound />} />  
