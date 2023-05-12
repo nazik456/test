@@ -11,15 +11,10 @@ import {
   onCategoriesLoad,
   onOrdersLoad,
   onProductsLoad,
-
-  
 } from "./firebase";
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
-u";
-
-
 
 // Создать контекст, который будет хранить данные.
 export const AppContext = createContext({
@@ -72,16 +67,14 @@ function App() {
           <Routes>
             <Route path="/Home" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
-            <Route path="/about" element={<About/>} />
+            <Route path="/about" element={<About />} />
             <Route path="/contacts" element={<h1>Contacts</h1>} />
             <Route path="/delivery" element={<h1>Delivery</h1>} />
             <Route path="/categories/:slug" element={<Category />} />
             <Route path="/products/:slug" element={<Product />} />
-
-            <Route path="/orders" element={<orders/>} />
-            <Route path="/contact" element={<Contact/>} />
-            <Route path="*" element={<NotFound />} />  
-   
+            <Route path="/orders" element={<orders />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
       </AppContext.Provider>
