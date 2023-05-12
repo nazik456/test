@@ -5,13 +5,14 @@ import Nav from "../Nav/Nav";
 import Auth from "../Auth/Auth";
 import "./Layout.css";
 
+
 export default function Layout(props) {
   return (
     <div className="Layout">
       <header>
         <Logo />
         <Nav />
-      
+
         <CartLink />
         <Auth/>
       </header>

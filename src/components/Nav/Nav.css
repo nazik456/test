@@ -1,14 +1,19 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
  
-.Nav .NavItem a {
-  color: rgb(254, 251, 251);
-  vertical-align: middle;
-  display: table-cell;
-  font-family: 'Playfair Display', serif;
+
+  .Nav .NavItem a {
+    color: rgb(254, 251, 251);
+    display: flex;
+  
+  
+    font-family: 'Playfair Display', serif;
+  
+  
+  }
 
 
-}
+
 .ul { 
   display: flex;
   justify-content: center;

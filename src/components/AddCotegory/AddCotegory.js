@@ -37,7 +37,7 @@ const AddCategory = () => {
   return (
     <div className="AddCategory">
       <input
-        size="15"
+        size="20"
         type="text"
         value={category}
         placeholder="Category name"
