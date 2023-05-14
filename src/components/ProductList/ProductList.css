@@ -1,12 +1,21 @@
 .ProductList .Product{
   display: flex;
   flex-direction: column;
-  max-width: 200px;
-}
-.ProductList .Product img{
-  width: 100%;
+  max-width: 150px;
+
   
 }
+.ProductList{
+  margin-top: 200px;
+}
+.ProductList img{
+  margin-top: -130px;
+}
+.ProductList .Product img{
+  border-radius: 150px;
+
+}
+
 .ProductList{
   display: flex;
   justify-content: space-around;
@@ -14,12 +23,7 @@
   
 }
 .ProductList span{
-  background-color: rgb(39, 58, 58);
-  color: blanchedalmond;
-}
-.ProductList .AddToCart{
-background-color: rgb(144, 175, 175);
 
+  color: black;
 }
-
 
