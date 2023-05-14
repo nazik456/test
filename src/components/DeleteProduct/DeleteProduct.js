@@ -4,6 +4,7 @@ import { deleteDoc, doc } from "firebase/firestore";
 import { deleteObject, ref } from "firebase/storage";
 import { db, storage } from "../../firebase";
 
+
 export default function DeleteProduct({ product }) {
   const { user } = useContext(AppContext);
 

@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bokor&family=Fasthand&family=Fragment+Mono:ital@1&family=Freehand&family=Nerko+One&family=Roboto:ital,wght@0,400;1,900&family=Unbounded:wght@300&family=Zen+Dots&display=swap');
 .CategoryList ul li  {
   list-style-type: none;
+  margin-top: -250px;
   
   
 }
 .CategoryList a{
   text-decoration: none;
   color: black;
-  border-left:2px solid #efefef ;
+  border-left:2px solid #441d1d ;
   padding-left: 5px;
   transition: all 0.2s ease;
 
@@ -24,7 +25,7 @@
 }
 .CategoryList{
   background: rgba(148, 138, 138, 0.5);
-  padding: 10vh 20px;
+  padding: 10px 20px;
   margin-top: 50px;
 }
 .CategoryList h3 span{
@@ -37,10 +38,15 @@
   color: rgb(0, 0, 0);
   font-size: 25px;
   margin-top: -250px;
+
 }
 .CategoryList h1{
   flex-wrap: wrap;
   display: flex;
+  
+}
+.CategoryList ul{
+  margin-top: -150px;
 }
 
 
