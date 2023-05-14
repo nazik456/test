@@ -5,6 +5,7 @@ import Category from "./pages/Category";
 import NotFound from "./pages/NotFound";
 import { createContext, useEffect, useState } from "react";
 import About from "./pages/About";
+import Delivery from "./pages/Delivery";
 
 import {
   onAuthChange,
@@ -15,6 +16,7 @@ import {
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
+import Foter from "./pages/Foter";
 
 // Создать контекст, который будет хранить данные.
 export const AppContext = createContext({
@@ -68,13 +70,14 @@ function App() {
             <Route path="/Home" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contacts" element={<h1>Contacts</h1>} />
-            <Route path="/delivery" element={<h1>Delivery</h1>} />
+            <Route path="/contacts" element={<Contact/>} />
+             <Route path="delivery" element={<Delivery/>} />
             <Route path="/categories/:slug" element={<Category />} />
             <Route path="/products/:slug" element={<Product />} />
             <Route path="/orders" element={<orders />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
+            <Route path="Foter" element={<Foter/>} />
           </Routes>
         </Layout>
       </AppContext.Provider>
