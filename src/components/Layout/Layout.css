@@ -20,7 +20,7 @@
 }
 .Layout main {
   grid-area: main;
-  margin-top: -150px;
+
 }
 .Layout footer {
   grid-area: footer;
