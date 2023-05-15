@@ -19,7 +19,7 @@
   margin-bottom: 26px;
 }
 .Products {
-  margin-left: 40px;
+  margin-left: 30px;
 }
 .ProductList {
   display: flex;
@@ -64,3 +64,4 @@
 .div-inside-product {
   background-color: #ffff;
 }
+

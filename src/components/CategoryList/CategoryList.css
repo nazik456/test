@@ -38,9 +38,9 @@
 
 }
 .CategoryList h3 {
-  color: rgb(0, 0, 0);
+  color: rgb(72, 56, 56);
   font-size: 25px;
-  margin-top: -250px;
+ 
 
 }
 .CategoryList h1{
@@ -51,5 +51,6 @@
 .CategoryList ul{
   margin-top: -150px;
 }
+
 
 
