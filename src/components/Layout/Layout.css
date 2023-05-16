@@ -13,7 +13,6 @@
 }
 .Layout header {
   grid-area: header;
-  
 }
 .Layout aside {
   grid-area: aside;
@@ -59,8 +58,16 @@ aside {
   width: 250px;
   max-width: 100%;
   text-align: left;
+  
 }
 
+.inside-div-in-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 .Layout{
 background-image: url(../../assets/1619339135_32-phonoteka_org-p-fon-dlya-prezentatsii-po-detskoi-literatur-36.jpg);
 position: absolute;
