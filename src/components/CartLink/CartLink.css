@@ -1,4 +1,24 @@
+
 .CartLink {
-  margin-top: -20px;
-  border: 1px solid;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.CartLink a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.CartLink a:hover {
+  text-decoration: underline;
+}
+
+.CartLink span {
+  margin-left: 5px;
+  background-color: #f00;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 50%;
 }
