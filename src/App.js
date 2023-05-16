@@ -15,8 +15,10 @@ import {
 import Product from "./pages/Product";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
-import Foter from "./pages/Foter";
-import ThankYou from "./pages/ThankYou";
+
+import Thanks from "./pages/Thanks";
+import Footer from "./components/Footer/Footer";
+
 
 // Создать контекст, который будет хранить данные.
 export const AppContext = createContext({
@@ -74,11 +76,11 @@ function App() {
              <Route path="delivery" element={<Delivery/>} />
             <Route path="/categories/:slug" element={<Category />} />
             <Route path="/products/:slug" element={<Product />} />
-            <Route path="/orders" element={<orders />} />
+            <Route path="/orders" element={<orders/>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
-            <Route path="Foter" element={<Foter/>} />
-            <Route path="thankyou" element={<ThankYou/>} />
+            <Route path="Footer" element={<Footer/>} />
+            <Route path="thanks" element={<Thanks/>} />
           </Routes>
         </Layout>
       </AppContext.Provider>
