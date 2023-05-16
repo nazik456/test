@@ -32,7 +32,7 @@ export default function OrderForm() {
   
   .then(doc =>{
     setCart({})
-    navigate('/thank-you');
+    navigate('/thanks');
   })
   }
   return (
