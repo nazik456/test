@@ -22,3 +22,37 @@
   padding: 2px 5px;
   border-radius: 50%;
 }
+.CartLink {
+  display: inline-block;
+}
+
+.CartLink a {
+  
+ 
+  text-decoration: none;
+    
+   
+  color: #333;
+    
+   
+  font-weight: bold;
+  }
+  
+  .CartLink a:hover {
+    
+   
+  color: #555;
+  }
+  
+  .CartLink a::after {
+    
+   
+  content: " ▾";
+  }
+  
+  .CartLink a.active::after {
+    
+   
+  content: " ▴";
+  }
+  
