@@ -1,3 +1,34 @@
+.About {
+  text-align: center;
+}
+
+.About img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.About h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.About h5 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.About ul {
+  text-align: left;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.About li {
+  margin-bottom: 5px;
+}
+
 .About p {
-  display: flex;
+  font-size: 14px;
+  line-height: 1.5;
 }
