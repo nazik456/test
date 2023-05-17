@@ -7,17 +7,17 @@ export default function Nav() {
       <div className="NavMonth">
         <ul className="ul">
           <li className="NavItem">
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/about">Home</NavLink>
           </li>
           <li className="NavItem">
-            <NavLink to="/Home">Home</NavLink>
+            <NavLink to="/Home">About</NavLink>
           </li>
 
           <li className="NavItem">
             <NavLink to="/contacts">Contacts</NavLink>
           </li>
           <li className="NavItem">
-            <NavLink to="/delivery">About Company</NavLink>
+            <NavLink to="/delivery">Delivery</NavLink>
           </li>
         </ul>
       </div>
