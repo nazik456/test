@@ -11,12 +11,12 @@
 } 
  
 .CategoryList h3 { 
-  font-size: 36px; 
+  font-size: 20px; 
   font-weight: bolder; 
   text-align: center; 
   margin-bottom: 20px; 
-  color: rgb(0, 0, 0); 
-  margin-left: 50px;
+  color: rgb(0, 0, 0);
+ text-transform: uppercase;
 } 
  
 .CategoryList ul { 
@@ -27,8 +27,11 @@
  
 .CategoryList li { 
   margin-bottom: 10px; 
-  border: 1px rgb(158, 157, 157) solid; 
-  border-radius: 8px; 
+  border: 1px rgb(130, 5, 5) solid; 
+  border-radius: 8px;
+  background-color: rgb(241, 231, 142);
+
+
   
 } 
  
@@ -41,8 +44,8 @@
   transition: background-color 0.3s ease; 
   font-size: medium; 
 } 
- 
-.CategoryList li a:hover { 
-  background-color: rgb(90, 25, 25); 
-  color: rgb(238, 232, 232); 
+.CategoryList ul li a:hover {
+  color: rgb(230, 0, 0); /* Измените на желаемый цвет */
+  text-decoration: underline; /* Измените на желаемое оформление */
 }
+ 
