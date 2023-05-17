@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { AppContext } from "../../App";
 import AddCotegory from "../AddCotegory/AddCotegory";
 import DeleteCategory from "../DeleteCategory/DeleteCategory";
-
+import "./CategoryList.css";
 
 export default function CategoryList() {
   const { categories } = useContext(AppContext);
