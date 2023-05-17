@@ -18,6 +18,7 @@ import Contact from "./pages/Contact";
 
 import Thanks from "./pages/Thanks";
 import Footer from "./components/Footer/Footer";
+import Orders from "./pages/Orders";
 
 
 // Создать контекст, который будет хранить данные.
@@ -76,7 +77,7 @@ function App() {
              <Route path="delivery" element={<Delivery/>} />
             <Route path="/categories/:slug" element={<Category />} />
             <Route path="/products/:slug" element={<Product />} />
-            <Route path="/orders" element={<orders/>} />
+         <Route path="/orders" element={<Orders/>}/>
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
             <Route path="Footer" element={<Footer/>} />
