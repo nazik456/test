@@ -1,0 +1,19 @@
+
+.AddToCart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AddToCart button {
+  padding: 10px 20px;
+  background-color: #75a6db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.AddToCart button:hover {
+  background-color: #0056b3;
+}
