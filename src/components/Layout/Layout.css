@@ -7,7 +7,7 @@
                        "aside main"
                        "footer footer";
   grid-template-columns: 1fr 3fr;
-  background-color: rgb(233, 225, 165);
+  background-color: rgb(230, 230, 228);
 
   /* max-width: 989px; */
   
