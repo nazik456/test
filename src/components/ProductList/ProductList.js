@@ -34,7 +34,7 @@ export default function ProductList({ category }) {
             <NavLink className="nav" to={"/products/" + product.slug}>
               {product.name}
             </NavLink>
-            <span className="price-in-product">{product.price} som</span>
+            <span className="price-in-product">{product.price} </span>
             <AddToCart product={product} />
             <DeleteProduct product={product} />
           </div>
