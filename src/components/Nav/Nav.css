@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+  
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Fasthand&family=Fragment+Mono:ital@1&family=Freehand&family=Lora:ital,wght@0,400;1,500&family=Nerko+One&family=Open+Sans:ital,wght@0,700;1,500&family=Roboto:ital,wght@0,400;1,900&family=Unbounded:wght@300&family=Ysabeau:ital,wght@0,1;1,1&family=Zen+Dots&display=swap');
 
 .Nav .NavItem a {
-  color: rgb(0, 0, 0);
+  color: rgb(15, 10, 10);
   display: flex;
    font-size: 25px;
   font-family: "Playfair Display", serif;
@@ -33,8 +34,8 @@
   
 }
 .NavItem a:hover {
-  text-transform: lowercase;
-  color: #651212;
+
+  color: #08005dd0;
 }
 .NavItem {
   list-style: none;
