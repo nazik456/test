@@ -1,16 +1,23 @@
 import "./Contact.css";
+
 export default function Contact(){
   return(
-    <div className="Contact">
-<h4>Contact</h4>
-<h1>phone:</h1>
-<h5>+997 505 500 273</h5>
-<h1>Adress:</h1>
-<h5>carlamax 53</h5>
+    <div className="Contacts">
+    <h1>Contact Us</h1>
+    <p>Get in touch with us for any inquiries or feedback.</p>
+ 
+    <h2>Phone:</h2>
+    <p>Call us at +996 (505) 500-273.</p>
+    
+    <h2>Address:</h2>
+    <p>
+              Address:{" "}
+              <a href="https://goo.gl/maps/VeQdviXxBjLxcnMh6">
+                {" "}
+                st. Pushkina, 10, Moscow
+              </a>
+            </p>
    
-
-  
-    </div>
+  </div>
   )
 }
-
