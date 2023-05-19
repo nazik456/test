@@ -6,32 +6,31 @@ export default function About() {
         src="https://hobbypark.kg/upload/iblock/695/6955cd5e17e4c71b177f0c5a9ab779f7.png"
         alt="constover"
       />
-      <h1>Канцеля́рские това́ры, или ка́нцтовары </h1>
+      <h1>Stationery, or stationery </h1>
       <h5>
         {" "}
-        это изделия и принадлежности, используемые для переписки и оформления
-        бумажной документации, учебы, творчества. Канцелярские товары составляют
-        отдельную статью в расходах любого предприятия.
+        these are products and accessories used for correspondence and
+        registration paper documentation, study, creativity. Stationery make up
+        a separate item in the expenses of any enterprise.
       </h5>
       <ul>
-        <li>Содержание 1 Список принадлежностей 1.1</li>
-        <li> Письменные принадлежности 1.2</li>
-        <li> Пространство длАя письма 1.3</li>
-        <li>Принадлежности для черчения 1.4</li>
-        <li> Принадлежности для скрепления 1.5</li>
-        <li> Принадлежности для хранения 1.6</li>
-        <li> Принадлежности для чтения 1.7</li>
-        <li> Острые принадлежности 1.8</li>
-        <li> Клейкие принадлежности 1.9</li>
-        <li> Творческие принадлежности 1.10 </li>
-        <li>Другое 2 История канцелярских товаров 3 Примечания</li>
+        <li>Contents 1 Accessories list 1.1</li>
+        <li>Writing instruments 1.2</li>
+        <li> Writing space 1.3</li>
+        <li>Drawing supplies 1.4</li>
+        <li>Binding accessories 1.5</li>
+        <li>Storage Accessories 1.6</li>
+        <li>Reading Supplies 1.7</li>
+        <li> Sharp accessories 1.8</li>
+        <li>Adhesive accessories 1.9</li>
+        <li> Creative Supplies 1.10 </li>
+        <li>Other 2 Stationery History 3 Notes</li>
       </ul>
-      <h1>Что входит в понятие канцтовары?</h1>
+      <h1>What is included in the concept of stationery?</h1>
       <p>
-        Канцеля́рские това́ры, или ка́нцтовары — это изделия и принадлежности,
-        используемые для переписки и оформления бумажной документации, учебы,
-        творчества. Канцелярские товары составляют отдельную статью в расходах
-        любого предприятия.
+        Stationery, or stationery - these are products and accessories, used for
+        correspondence and paperwork, study, creativity. Office supplies make up
+        a separate item in expenses any enterprise.
       </p>
     </div>
   );
