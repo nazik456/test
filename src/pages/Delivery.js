@@ -12,7 +12,7 @@ export default function Delivery(){
       <hr/>
       <h1>Flexible Delivery OPtions:</h1>
       <p>We offer variety of delivery options to sult your needs .Whether you package delivered on a specitic date on time we have you covered.</p>
-
+      <img src="https://tile3.maps.2gis.com/tiles?x=46350&y=24113&z=16&v=1&ts=online_hd"alt=""></img>
     </div>
   )
 }
