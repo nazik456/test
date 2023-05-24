@@ -1,11 +1,13 @@
 .About {
   text-align: center;
+ 
 }
 
 .About img {
   width: 200px;
   height: 200px;
   margin-bottom: 20px;
+
 }
 
 .About h1 {
@@ -16,6 +18,7 @@
 .About h5 {
   font-size: 16px;
   margin-bottom: 20px;
+
 }
 
 .About ul {

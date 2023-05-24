@@ -1,0 +1,28 @@
+.Ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.NavLast .NavItem a {
+  transition: 0.5s;
+  color: rgb(51, 47, 41);
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+}
+.NavItem {
+  padding: 30px 20px;
+  font-size: 29px;
+}
+.NavLast .NavItem a:hover {
+  color: #910000;
+  border-color: #fff;
+}
+.NavLast .NavItem a:focus {
+  color: #04001b;
+}
+@media (max-width: 900px) {
+  .NavLast {
+    display: none;
+  }
+}
