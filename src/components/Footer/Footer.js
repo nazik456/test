@@ -28,9 +28,7 @@ function Footer() {
               <li>
                 <NavLink to="/contact">Contact</NavLink>
               </li>
-              <li>
-                <NavLink to="/technical-support">Technical Support</NavLink>
-              </li>
+              
               <li>
                 <NavLink to="/orders">Orders</NavLink>
               </li>
