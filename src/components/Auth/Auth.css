@@ -1,7 +1,8 @@
 .Auth {
   display: flex;
-  align-items: center;
-  margin-left:70px;
+  margin-top: -40px;
+  margin-left:1300px;
+
 }
 
 .Auth .img-container {
