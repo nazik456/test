@@ -1,46 +1,35 @@
-.CartList {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .CartItem {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .CartItem img {
   width: 100px;
-  height: 100px;
+  height: auto;
   margin-right: 10px;
 }
 
-.CartItem a {
-  font-weight: bold;
-  margin-right: 10px;
-  text-decoration: none;
-  color: #333;
+.Card-content {
+  display: flex;
+  align-items: center;
 }
 
-.CartItem input[type="number"] {
+.Card-content a {
+  margin-right: 10px;
+}
+
+.Card-content input {
   width: 50px;
   margin-right: 10px;
 }
 
-.CartItem span {
-  font-weight: bold;
-  margin-right: 10px;
+.CartList {
+  margin-top: 20px;
+border-style: groove;
+border: 80px;
+border-color:blueviolet;
+transition: 8s;
 }
 
-.CartItem button {
-  padding: 5px 10px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-.CartItem button:hover {
-  background-color: #555;
-}
