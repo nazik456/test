@@ -1,51 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Fasthand&family=Fragment+Mono:ital@1&family=Freehand&family=Nerko+One&family=Open+Sans:ital,wght@0,700;1,500&family=Roboto:ital,wght@0,400;1,900&family=Unbounded:wght@300&family=Ysabeau:ital,wght@0,1;1,1&family=Zen+Dots&display=swap');
-.CategoryList { 
-  max-width: 500px; 
-  font-family: 'Courier New', Courier, monospace; 
-  margin: 20px; 
-  padding: 20px; 
-  border-radius: 10px; 
-  background-color: rgb(255, 255, 255); 
-  border: 1px rgba(8, 8, 8, 0.774) solid; 
-  margin-top: 40px; 
-} 
- 
-.CategoryList h3 { 
-  font-size: 20px; 
-  font-weight: bolder; 
-  text-align: center; 
-  margin-bottom: 20px; 
-  color: rgb(0, 0, 0);
- text-transform: uppercase;
-} 
- 
-.CategoryList ul { 
-  list-style: none; 
-  padding: 0; 
-  margin: 0; 
-} 
- 
-.CategoryList li { 
-  margin-bottom: 10px; 
-  border: 1px rgb(130, 5, 5) solid; 
-  border-radius:8px;
-  background-color: rgb(241, 231, 142);
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,200&family=Bokor&family=Fasthand&family=Fragment+Mono:ital@1&family=Freehand&family=Josefin+Sans:ital,wght@1,400;1,600&family=Lora:ital,wght@0,400;1,500;1,600&family=Nerko+One&family=Open+Sans:ital,wght@0,700;1,500&family=PT+Serif:ital,wght@0,700;1,400&family=Roboto+Slab:wght@300;500&family=Roboto:ital,wght@0,400;1,900&family=Unbounded:wght@300&family=Ysabeau:ital,wght@0,1;1,1&display=swap');
 
-
-  
-} 
- 
-.CategoryList li a { 
-  display: block; 
-  padding: 10px; 
-  border-radius: 5px; 
-  text-decoration: none; 
-  color: #333; 
-  transition: background-color 0.3s ease; 
-  font-size: medium; 
-} 
-.CategoryList ul li a:hover {
-  color: rgb(230, 0, 0); /* Измените на желаемый цвет */
-  text-decoration: underline; /* Измените на желаемое оформление */
+.CategoryList {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #81bdd2;
+  border-radius: 10px;
+  font-size: 24px;
 }
- 
+
+.CategoryList h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-family: 'Barlow', sans-serif;
+font-size: 29px;
+}
+
+.CategoryList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.CategoryList li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.CategoryList li:last-child {
+  border-bottom: none;
+}
+
+.CategoryList a {
+  text-decoration: none;
+  color: #333;
+}
+
+.CategoryList a:hover {
+  color: #254655;
+}
+
+.CategoryList button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: #533838;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.CategoryList button:hover {
+  background-color: #7c4c4c;
+}
