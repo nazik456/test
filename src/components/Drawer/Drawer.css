@@ -1,7 +1,7 @@
 .Drawer .content {
   background-color: #222;
   color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   width: 260px;
   overflow: hidden;
 
@@ -11,10 +11,10 @@
   bottom: 0;
   z-index: 100;
   transform: translateX(-300px);
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 .Drawer .backdrop {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, 0.3);
 
   position: fixed;
   top: 0;
@@ -23,4 +23,20 @@
   bottom: 0;
   z-index: 90;
   display: none;
+}
+
+.open .backdrop {
+  display: block;
+}
+.open .content {
+  transform: translateX(0);
+}
+
+@media (min-width: 901px) {
+  .Drawer .backdrop {
+    display: none;
+  }
+  .Drawer .content {
+    transform: translateX(-300px);
+  }
 }

@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Fasthand&family=Fragment+Mono:ital@1&family=Freehand&family=Josefin+Sans:ital,wght@1,400;1,600&family=Lora:ital,wght@0,400;1,500;1,600&family=Nerko+One&family=Open+Sans:ital,wght@0,700;1,500&family=Roboto:ital,wght@0,400;1,900&family=Unbounded:wght@300&family=Ysabeau:ital,wght@0,1;1,1&family=Zen+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bokor&family=Fasthand&family=Fragment+Mono:ital@1&family=Freehand&family=Josefin+Sans:ital,wght@1,400;1,600&family=Lora:ital,wght@0,400;1,500;1,600&family=Nerko+One&family=Open+Sans:ital,wght@0,700;1,500&family=Roboto:ital,wght@0,400;1,900&family=Unbounded:wght@300&family=Ysabeau:ital,wght@0,1;1,1&family=Zen+Dots&display=swap");
 .Nav .NavItem a {
   color: rgb(15, 10, 10);
   display: flex;
-   font-size: 25px;
+  font-size: 25px;
   font-family: "Playfair Display", serif;
-
 }
 
 .ul {
@@ -12,32 +11,30 @@
   justify-content: center;
   position: relative;
   height: 50px;
+  font-size: 25px;
 }
 
 .Nav ul {
   margin-top: -10px;
   font-size: 20px;
-  
+
   color: #892d2d;
   font-weight: 700;
   background: none;
   border: 0;
   cursor: pointer;
-  transition: 0.10s;
+  transition: 0.1s;
   padding: 0 5px;
-
 }
 .NavItem {
   padding: 5px 60px;
-  
 }
 .NavItem a:hover {
-
   color: #08005dd0;
 }
 .NavItem {
   list-style: none;
 }
-.Nav div{
+.Nav div {
   font-size: 90px;
 }

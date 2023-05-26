@@ -30,13 +30,7 @@ export default function Auth() {
       ) : ( 
         <span className="LogOut-img"> 
           <div className="img-container"> 
-            <img 
-              src={ 
-                user?.photoURL || 
-                "https://icon-library.com/images/my-profile-icon-png/my-profile-icon-png-3.jpg" 
-              } 
-              alt="Placeholder" 
-            /> 
+           
             <div className="img-menu"> 
               <NavLink to="/support">SupportPage</NavLink> 
               <NavLink to="/orders">Orders</NavLink> 

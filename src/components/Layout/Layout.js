@@ -1,7 +1,7 @@
 import CartLink from "../CartLink/CartLink";
 import CategoryList from "../CategoryList/CategoryList";
 import Logo from "../Logo/Logo";
-import Nav from "../Nav/Nav";
+import NavBar from "../NavBar/NavBar";
 import Auth from "../Auth/Auth";
 import "./Layout.css";
 import Footer from "../Footer/Footer";
@@ -13,7 +13,7 @@ export default function Layout(props) {
       <header>
       <div className="inside-div-in-header">
         <Logo />
-        <Nav />
+        <NavBar/>
         <CartLink />
         <Auth/>
       </div>

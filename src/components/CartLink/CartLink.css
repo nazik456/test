@@ -3,6 +3,7 @@
 .CartLink {
   display: flex;
   align-items: center;
+  margin-top: -25px;
 }
 
 .CartLink a {
@@ -26,5 +27,5 @@
   color: #fff;
   padding: 5px;
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 15px;
 }

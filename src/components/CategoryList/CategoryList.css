@@ -2,12 +2,13 @@
 
 .CategoryList {
   max-width: 100%;
-  width: 600px;
+  /* width: 600px; */
   margin: 0 auto;
   padding: 20px;
   background-color: #81bdd2;
   border-radius: 10px;
   font-size: 24px;
+
 }
 
 .CategoryList h3 {
@@ -44,7 +45,7 @@ font-size: 29px;
 }
 
 .CategoryList button {
-  padding: 5px 10px;
+
   background-color: #333;
   color: #533838;
   border: none;

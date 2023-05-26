@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import "./Nav.css";
+import "./NavBar.css";
 
-export default function Nav() {
+export default function NavBar() {
   return (
-    <nav className="Nav">
+    <nav className="NavBar">
       <div className="NavMonth">
         <ul className="ul">
           <li className="NavItem">
