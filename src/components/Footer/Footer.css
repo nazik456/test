@@ -7,6 +7,10 @@
   color: #ffffff;
   margin-top: 1rem;
 }
+.footer title{
+  width: 300px;
+}
+
 .footer section{
   display: flex;
   
@@ -49,7 +53,7 @@
 .footer-social-list {
   list-style-type: none;
   padding: 0;
-  display: flex;
+
   font-size: 15px;
 }
 
