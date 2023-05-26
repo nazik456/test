@@ -1,16 +1,8 @@
-.Delivery h1 {
-  display: flex;
-}
+
 .Delivery {
   text-align: center;
+  padding-right: 350px;
 
-  padding: 20px;
-}
-
-.Delivery h1 {
-  font-size: 24px;
-
-  margin-bottom: 10px;
 }
 
 .Delivery p {
@@ -18,10 +10,6 @@
   margin-bottom: 20px;
 }
 
-.Delivery img {
-  max-width: 100%;
-  margin-bottom: 20px;
-}
 .Delivery hr {
   border: none;
   border-top: 1px solid #ccc;
