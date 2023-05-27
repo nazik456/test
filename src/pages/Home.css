@@ -1,15 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;1,200&family=Bokor&family=Fasthand&family=Fragment+Mono:ital@1&family=Freehand&family=Josefin+Sans:ital,wght@1,400;1,600&family=Lora:ital,wght@0,400;1,500;1,600&family=Nerko+One&family=Open+Sans:ital,wght@0,700;1,500&family=PT+Sans:ital,wght@1,400;1,700&family=PT+Serif:ital,wght@0,700;1,400&family=Playfair+Display:ital@1&family=Roboto+Slab:wght@300;500&family=Roboto:ital,wght@0,400;1,900&family=Unbounded:wght@300&family=Ysabeau:ital,wght@0,1;1,1&display=swap');
+/* Home.css */
 .Home {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: 25px;
-  padding-right: 350px;
-  margin-top: 50px;
+  align-items: center;
 }
 
-.Home h1 {
-  font-family: 'Barlow', sans-serif;
-  text-align: center;
-
+.Home p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
 
+.Home a {
+  color: #000;
+  text-decoration: none;
+}
+
+.Home img {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 5px;
+}
