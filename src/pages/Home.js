@@ -25,6 +25,14 @@ export default function Home() {
         src="https://moybiznes.org/wp-content/uploads/magazin-kanctovarov-1024x624.jpg"
         alt="image3"
       />
+      <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS00zvuzWWJ-z0bt0Ze534FTAczybFFVBYJQ&usqp=CAU"
+      alt="image4"
+      />
+      <img
+      src="https://biz.com.kg/wp-content/uploads/2020/10/WhatsApp-Image-2020-09-30-at-13.07.25-1.jpeg"
+      alt="image5"
+      />
     </div>
   );
 }

@@ -11,16 +11,28 @@
   font-family: Arial, sans-serif;
   font-size: 16px;
   margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 .Home a {
   color: #000;
   text-decoration: none;
+
 }
 
 .Home img {
+  margin-top: 100px;
   width: 300px;
   height: auto;
   margin: 10px;
   border-radius: 5px;
+  border: 5px solid ;
+  justify-content: center;
+}
+.Home img:nth-of-type(4) {
+  width: 400px;
+}
+
+.Home img:nth-of-type(5) {
+  width: 250px;
 }
