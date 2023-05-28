@@ -33,6 +33,10 @@ export default function Home() {
       src="https://biz.com.kg/wp-content/uploads/2020/10/WhatsApp-Image-2020-09-30-at-13.07.25-1.jpeg"
       alt="image5"
       />
+       <img
+      src="https://biz.com.kg/wp-content/uploads/2020/10/WhatsApp-Image-2020-09-30-at-13.07.24.jpeg   "
+      alt="image5"
+      />
     </div>
   );
 }
