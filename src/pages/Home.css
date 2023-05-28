@@ -5,6 +5,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 0 10px #06431c;;
 }
 
 .Home p {

@@ -3,7 +3,7 @@
 .footer {
   box-shadow: 0 0 10px #900e0e;
   padding: 40px 10px;
-  background-color: rgb(156, 146, 219);
+  background-color: rgb(212, 196, 102);
   color: #ffffff;
   margin-top: 1rem;
 }
@@ -63,15 +63,15 @@
 }
 
 .footer-bottom {
-  background-color: #392a2a;
-  color: #fff;
+  background-color: #3a1919;
+  color: #e7e7e7;
   padding: 10px;
   text-align: center;
 
 }
 
 .footer-bottom-text {
-  font-size: 12px;
+  font-size:15px;
   
 }
 
@@ -79,15 +79,15 @@
 
 .fab {
   font-size: 20px;
-  color: #100c0c;
+  color: #300404;
 
 }
 
 .fab:hover {
-  color: #bf9797;
+  color: #871e1e;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .footer-column {
     flex-basis: 50%;
   }
@@ -97,4 +97,4 @@
   .footer-column {
     flex-basis: 100%;
   }
-}
+} */

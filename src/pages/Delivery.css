@@ -2,16 +2,18 @@
 .Delivery {
   text-align: center;
   padding-right: 350px;
+  box-shadow: 0 0 10px #1d404e;;
 
 }
 
 .Delivery p {
   font-size: 16px;
   margin-bottom: 20px;
+  box-shadow: 0 0 10px #815d5d;;
 }
 
 .Delivery hr {
   border: none;
   border-top: 1px solid #ccc;
-  margin: 20px 0;
+  margin: 20px 0; 
 }

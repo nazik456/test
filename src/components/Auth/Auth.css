@@ -1,57 +1,18 @@
-.Auth {
+.Auth span {
   display: flex;
-  margin-top: -40px;
-  margin-left:1300px;
-
+  align-items: center;
 }
-
-.Auth .img-container {
-  position: relative;
-  margin-right: 10px;
-}
-
-.Auth img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.Auth .img-menu {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 10px;
-  display: none;
-}
-
-.Auth .img-container:hover .img-menu {
-  display: block;
-}
-
-.Auth .img-menu a {
-  display: block;
-  color: #000;
-  text-decoration: none;
-  margin-bottom: 5px;
-}
-
-.Auth .img-menu p {
-  color: #999;
-  font-size: 12px;
-  margin-bottom: 5px;
-}
-
-.Auth .img-menu button {
-  background-color: #fff;
-  border: none;
-  color: #000;
+.Auth .Sign {
+  background-color: rgb(138, 133, 132);
+  border-radius: 6px;
+  border: 0;
+  font-size: 16px;
   cursor: pointer;
+  color: #fff;
+  margin-left: 5px;
+  padding: 5px 8px;
 }
-
-.Auth .img-menu button:hover {
-  text-decoration: underline;
+.Auth .photoURL {
+  border-radius: 100%;
+  width: 30px;
 }
